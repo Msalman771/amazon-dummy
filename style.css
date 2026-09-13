@@ -3,6 +3,7 @@
     margin: 0px;
     color: white;
     font-size: 12px;
+    /*  */
 }
 #navbar{
     height: 30px;
@@ -21,4 +22,29 @@ button{
 }
 #logo{
     color:#f08804;
+
+}
+#content{
+    height: 205px;
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.contentbox1{
+    background-color: rgba(140, 88, 88, 0.7);
+
+}
+.contentbox2{
+    background-color: rgba(179, 44, 44, 0.3);
+}
+.contentbox3{
+    background-color: rgba(55, 200, 200, 0.5);
+}
+footer{
+    /* color: black; */
+    background-color: #0f1111;
+    text-align: center;
 }
