@@ -5,7 +5,8 @@
     font-size: 12px;
     /*  */
 }
-#navbar{
+/* oli style for navbar */
+/* #navbar{
     height: 30px;
     background-color: #0f1111;
     padding-top: 4px;
@@ -26,6 +27,31 @@ button{
 }
 #content{
     height: 205px;
+   
+} */
+
+/* New style flexbox */
+.navbar{
+    display: flex;
+    background-color: #0f1111;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+#logo{
+      color:#f08804;
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+button{
+     background-color: #f08804;
+    border-radius: 3px;
+    border-width: thin;
 }
 .contentbox{
     height: 100px;
