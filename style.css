@@ -59,18 +59,61 @@ button{
     border: 2px solid black;
     display: inline-block;
 }
+
 .contentbox1{
     background-color: rgba(140, 88, 88, 0.7);
 
 }
 .contentbox2{
-    background-color: rgba(179, 44, 44, 0.3);
+    background-color: rgba(57, 223, 11, 0.3);
 }
 .contentbox3{
     background-color: rgba(55, 200, 200, 0.5);
+}
+.contentbox4{
+    background-color: #f08804;
+}
+@media(max-width:300px){
+    .contentbox1{
+        background-color: green;
+    }
+
+}
+@media(min-width:300px) and (max-width:400px){
+    .contentbox2{
+        background-color: pink;
+    }
+}
+@media(max-width:500px) and (min-width:400px){
+    .contentbox3{
+        background-color: red;
+    }
+}
+
+@media(min-width:600px){
+    .contentbox4{
+        background-color: blue;
+    }
 }
 footer{
     /* color: black; */
     background-color: #0f1111;
     text-align: center;
+}
+
+.contentboxt{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+    color:black;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 3px;
+}
+.contentboxt:hover{
+    background-color: red;
+    font-size: 20px;
+    color: white;
 }
